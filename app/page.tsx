@@ -124,29 +124,29 @@ export default function Home() {
             </div>
             <div className="hidden md:grid grid-cols-2 gap-4" data-aos="fade-left" data-aos-delay="200">
               <Image
-                src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=400&h=400&fit=crop&q=95"
-                alt="Carton Box Manufacturing"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/female-warehouse-worker-taping-cardboard-box-with-tape-dispenser-before-shipment-62eQgzLr7Vf6vyiV4F6jMiJJ5CmYC7.jpg"
+                alt="Worker taping cardboard box"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=400&fit=crop&q=95"
-                alt="Corrugated Cardboard Boxes"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/closed-brown-cardboard-box-isolated-white-background-zSSpl7hgCYjC4q4PjUQqd5hlTqflac.jpg"
+                alt="Closed brown cardboard box"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1594787318286-3d835c1cab83?w=400&h=400&fit=crop&q=95"
-                alt="Professional Box Packaging"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/set-three-unlabeled-similar-craft-cardboard-boxes-with-covers-beautifully-arranged-studio-with-white-walls-rckrIwAdAX8xm0BOZqxHg1R7Kdjk1c.jpg"
+                alt="Set of three craft cardboard boxes"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=400&h=400&fit=crop&q=95"
-                alt="Quality Carton Production"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ff0ff724-e306-44b0-9de6-c9fbfca9e112-ZR3mDPPjRCRuYzRk1pdaCIKSrHreJU.jpg"
+                alt="Open cardboard box"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
