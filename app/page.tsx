@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
-import { Menu, X, ChevronRight, Phone, Mail, MapPin, CheckCircle2, Factory } from 'lucide-react'
+import { Menu, X, ChevronRight, Phone, Mail, MapPin, CheckCircle2, Factory, Zap, Shield } from 'lucide-react'
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -159,13 +159,13 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-4 text-foreground/80">
               <p className="text-lg leading-relaxed">
-                <span className="font-semibold text-primary">Shikha Laminator</span> was founded in 2010 with a simple but powerful mission: to provide packaging solutions that empower businesses to grow without worrying about their packaging needs. What started as a vision has become a reality, earning the trust of many companies across the region.
+                <span className="font-semibold text-primary">Shikha Laminator</span> was established in 2010 by <span className="font-semibold">Mr. Amit Kumar Srivastava</span> with a clear vision to address the packaging challenges faced by businesses. We specialize in manufacturing high-quality laminated cartons designed to meet diverse packaging needs across industries.
               </p>
               <p className="text-lg leading-relaxed">
-                We believe that great packaging is more than just a box—it&apos;s a reflection of your brand&apos;s commitment to quality. Every product we create, from custom carton boxes to corrugated solutions, is designed to protect your products and represent your business with excellence.
+                Our mission is to deliver durable, customized, and eco-conscious packaging solutions with a commitment to precision, performance, and punctuality. We combine modern machinery, skilled craftsmanship, and quality raw materials to ensure each carton meets stringent quality standards—whether for FMCG, electronics, retail, export, or any other industry.
               </p>
               <p className="text-lg leading-relaxed">
-                Under the leadership of <span className="font-semibold">Aabhash Srivastava</span>, our Business Development Manager, we&apos;re taking bold steps to strengthen our presence and bring our packaging expertise to more businesses in surrounding regions. We're not just growing our business—we're growing with our customers.
+                Under the leadership of <span className="font-semibold">Aabhash Srivastava</span>, our Business Development Manager, we&apos;re taking bold steps to strengthen our presence and bring our packaging expertise to more businesses in surrounding regions. We're committed to simplifying packaging needs while ensuring consistent service excellence.
               </p>
             </div>
 
@@ -210,8 +210,38 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Industries We Serve Section */}
+      <section className="py-16 md:py-24 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Industries We Serve</h2>
+            <div className="w-16 h-1 bg-accent mx-auto mb-4"></div>
+            <p className="text-lg text-foreground/80">Trusted by diverse sectors for their packaging needs</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              'Garment Division',
+              'Footwear Industry',
+              'Export Houses',
+              'Café & Restaurant Sector',
+              'Automobile',
+              'Electronics',
+              'FMCG',
+              'Leather'
+            ].map((industry, idx) => (
+              <Card key={idx} className="border-accent/30 bg-white hover:shadow-lg transition">
+                <CardContent className="p-6 text-center">
+                  <p className="font-semibold text-primary">{industry}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Products Section */}
-      <section id="products" className="py-16 md:py-24 bg-slate-50">
+      <section id="products" className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Products & Services</h2>
@@ -264,8 +294,94 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Our Infrastructure Section */}
+      <section className="py-16 md:py-24 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Infrastructure & Capabilities</h2>
+            <div className="w-16 h-1 bg-accent mx-auto mb-4"></div>
+            <p className="text-lg text-foreground/80">State-of-the-art machinery for premium packaging solutions</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+            {[
+              { name: 'Corrugation Machine', icon: '⚙️' },
+              { name: 'Rotary & Slotter Machine', icon: '🔄' },
+              { name: 'Die Cutting Machine', icon: '✂️' },
+              { name: 'Stitching Machine', icon: '🧵' },
+              { name: 'Offset Printing Machine', icon: '🖨️' }
+            ].map((equipment, idx) => (
+              <Card key={idx} className="border-accent/30 bg-white hover:shadow-lg transition">
+                <CardContent className="p-6 text-center">
+                  <div className="text-4xl mb-3">{equipment.icon}</div>
+                  <p className="font-semibold text-primary text-sm">{equipment.name}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Quality Assurance Section */}
+      <section className="py-16 md:py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Quality Assurance</h2>
+            <div className="w-16 h-1 bg-accent mx-auto mb-4"></div>
+            <p className="text-lg text-foreground/80">Rigorous testing ensures every carton meets our premium standards</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {[
+              {
+                title: 'Bursting Factor Test',
+                description: 'Assesses the strength and resistance of corrugated boxes against external pressure.'
+              },
+              {
+                title: 'Moisture Content Test',
+                description: 'Ensures optimal moisture levels in raw materials to prevent degradation and preserve structural integrity.'
+              },
+              {
+                title: 'Compression Test',
+                description: 'Verifies the load-bearing capacity of boxes and their ability to protect contents during handling and transit.'
+              },
+              {
+                title: 'GSM (Grams per Square Meter) Check',
+                description: 'Measures paper weight to maintain uniformity and reliability across all products.'
+              },
+              {
+                title: 'Gauge Measurement',
+                description: 'Confirms the thickness and uniformity of materials used in production.'
+              },
+              {
+                title: 'Pasting Gum Viscosity Test',
+                description: 'Ensures strong adhesion and secure bonding in corrugated sheets.'
+              }
+            ].map((test, idx) => (
+              <Card key={idx} className="border-accent/30 bg-primary/5">
+                <CardContent className="p-6">
+                  <div className="flex gap-4">
+                    <Shield className="text-accent flex-shrink-0 mt-1" size={24} />
+                    <div>
+                      <h3 className="font-semibold text-primary mb-2">{test.title}</h3>
+                      <p className="text-foreground/80 text-sm">{test.description}</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          <div className="mt-8 p-6 bg-accent/10 rounded-lg border border-accent">
+            <p className="text-center text-foreground/80 font-medium">
+              <span className="text-accent">Advanced Technology:</span> Our temperature-controlled corrugation machines maintain precise temperature settings for consistent, high-quality output.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose Us Section */}
-      <section id="why-us" className="py-16 md:py-24 bg-white">
+      <section id="why-us" className="py-16 md:py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Why Choose Shikha Laminator?</h2>
