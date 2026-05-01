@@ -35,8 +35,8 @@ export default function Home() {
             <div className="flex items-center gap-3">
               <Image src="/shikha-logo.png" alt="Shikha Laminator" width={45} height={45} className="object-contain" />
               <div className="flex flex-col gap-0">
-                <span className="text-2xl text-primary tracking-tight font-light" style={{fontFamily: "'Poppins', sans-serif", letterSpacing: '-0.5px'}}>SHIKHA</span>
-                <span className="text-xs text-primary/70 font-light" style={{fontFamily: "'Poppins', sans-serif"}}>LAMINATOR</span>
+                <span className="text-2xl text-primary tracking-normal font-bold">SHIKHA</span>
+                <span className="text-xs text-primary/70 font-semibold">LAMINATOR</span>
               </div>
             </div>
 
@@ -336,7 +336,7 @@ export default function Home() {
                   <Phone className="flex-shrink-0" size={24} />
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
-                    <p className="text-primary-foreground/90">9140223212, 8005200106</p>
+                    <p className="text-primary-foreground/90">+91 9140223212, +91 8005200106</p>
                   </div>
                 </div>
 
@@ -353,7 +353,7 @@ export default function Home() {
                   <MapPin className="flex-shrink-0" size={24} />
                   <div>
                     <h3 className="font-semibold mb-1">Location</h3>
-                    <p className="text-primary-foreground/90">Kanpur, Uttar Pradesh, India</p>
+                    <p className="text-primary-foreground/90">J-67, Panki Site 3, UPSIDA, Kanpur, Uttar Pradesh, India</p>
                   </div>
                 </div>
               </div>
