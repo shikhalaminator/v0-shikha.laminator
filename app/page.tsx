@@ -93,12 +93,12 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="bg-gradient-to-b from-slate-50 to-white py-16 md:py-24">
+      <section id="home" className="bg-gradient-to-b from-slate-50 to-white py-20 md:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="grid md:grid-cols-2 gap-8 items-center min-h-[500px]">
             <div className="space-y-6" data-aos="fade-up">
-              <div className="space-y-3">
-                <h1 className="text-4xl md:text-5xl font-bold text-primary leading-tight">
+              <div className="space-y-4">
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-primary leading-tight">
                   Packaging that <span className="text-accent">Performs</span>
                 </h1>
                 <p className="text-lg text-foreground/80">
