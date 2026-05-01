@@ -34,10 +34,7 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-3">
               <Image src="/shikha-logo.png" alt="Shikha Laminator" width={45} height={45} className="object-contain" />
-              <div className="flex flex-col gap-0">
-                <span className="text-2xl text-primary tracking-normal font-bold">SHIKHA</span>
-                <span className="text-xs text-primary/70 font-semibold">LAMINATOR</span>
-              </div>
+              <span className="text-2xl text-primary tracking-normal font-bold">SHIKHA LAMINATOR</span>
             </div>
 
             {/* Desktop Navigation */}
@@ -97,7 +94,7 @@ export default function Home() {
                   Packaging that <span className="text-accent">Performs</span>
                 </h1>
                 <p className="text-lg text-foreground/80">
-                  Solutions for businesses across regions
+                  Packaging solutions for businesses across regions
                 </p>
               </div>
               <p className="text-base text-foreground/70">
@@ -119,29 +116,29 @@ export default function Home() {
             </div>
             <div className="hidden md:grid grid-cols-2 gap-4">
               <Image
-                src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=300&h=300&fit=crop"
-                alt="Carton Manufacturing"
+                src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=300&h=300&fit=crop&q=80"
+                alt="Carton Box Manufacturing"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=300&h=300&fit=crop"
-                alt="Corrugated Boxes"
+                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=300&h=300&fit=crop&q=80"
+                alt="Corrugated Cardboard Production"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=300&h=300&fit=crop"
-                alt="Packaging Solutions"
+                src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=300&h=300&fit=crop&q=80"
+                alt="Workers Manufacturing Boxes"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1631092915957-50a94d11b547?w=300&h=300&fit=crop"
-                alt="Quality Cartons"
+                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=300&h=300&fit=crop&q=80"
+                alt="Carton Box Assembly"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
