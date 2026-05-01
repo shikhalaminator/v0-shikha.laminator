@@ -165,7 +165,7 @@ export default function Home() {
                 We believe that great packaging is more than just a box—it&apos;s a reflection of your brand&apos;s commitment to quality. Every product we create, from custom carton boxes to corrugated solutions, is designed to protect your products and represent your business with excellence.
               </p>
               <p className="text-lg leading-relaxed">
-                Under the leadership of <span className="font-semibold">Aabhash Srivastava</span>, our Business Development Manager, we&apos;re taking bold steps to strengthen our presence and bring our packaging expertise to more businesses in Kanpur, Unnao, Lucknow, and surrounding areas. We're not just growing our business—we're growing with our customers.
+                Under the leadership of <span className="font-semibold">Aabhash Srivastava</span>, our Business Development Manager, we&apos;re taking bold steps to strengthen our presence and bring our packaging expertise to more businesses in surrounding regions. We're not just growing our business—we're growing with our customers.
               </p>
             </div>
 
@@ -200,7 +200,7 @@ export default function Home() {
                     <MapPin className="text-accent mt-1 flex-shrink-0" size={24} />
                     <div>
                       <h3 className="font-semibold text-primary mb-1">Regional Excellence</h3>
-                      <p className="text-sm text-foreground/80">Focused on Kanpur, Unnao, Lucknow and surrounding areas with reliable support</p>
+                      <p className="text-sm text-foreground/80">Focused on surrounding regions with reliable support</p>
                     </div>
                   </div>
                 </CardContent>
