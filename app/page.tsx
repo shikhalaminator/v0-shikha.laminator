@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-card border-b border-border shadow-sm">
+      <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-3">
@@ -93,7 +93,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="bg-background py-16 md:py-24">
+      <section id="home" className="bg-gradient-to-b from-slate-50 to-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-6" data-aos="fade-up">
@@ -157,7 +157,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-16 md:py-24 bg-card">
+      <section id="about" className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Story</h2>
@@ -238,7 +238,7 @@ export default function Home() {
               'FMCG',
               'Leather'
             ].map((industry, idx) => (
-              <Card key={idx} className="border-accent/30 bg-card hover:shadow-lg transition">
+              <Card key={idx} className="border-accent/30 bg-white hover:shadow-lg transition">
                 <CardContent className="p-6 text-center">
                   <p className="font-semibold text-primary">{industry}</p>
                 </CardContent>
@@ -249,7 +249,7 @@ export default function Home() {
       </section>
 
       {/* Products Section */}
-      <section id="products" className="py-16 md:py-24 bg-card">
+      <section id="products" className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Products & Services</h2>
@@ -290,11 +290,10 @@ export default function Home() {
                 icon: '🎯'
               },
             ].map((product, idx) => (
-              <Card key={idx} className="hover:shadow-lg transition duration-300 border-border bg-card">
+              <Card key={idx} className="hover:shadow-lg transition duration-300 border-border bg-white">
                 <CardContent className="p-6">
-                  <div className="text-4xl mb-4">{product.icon}</div>
-                  <h3 className="text-xl font-semibold text-primary mb-3">{product.title}</h3>
-                  <p className="text-foreground/80">{product.description}</p>
+                  <h3 className="text-lg font-semibold text-primary mb-2">{product.title}</h3>
+                  <p className="text-foreground/80 text-sm">{product.description}</p>
                 </CardContent>
               </Card>
             ))}
@@ -303,7 +302,7 @@ export default function Home() {
       </section>
 
       {/* Our Infrastructure Section */}
-      <section className="py-16 md:py-24 bg-background/50">
+      <section className="py-16 md:py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Infrastructure & Capabilities</h2>
@@ -319,7 +318,7 @@ export default function Home() {
               { name: 'Stitching Machine', icon: '🧵' },
               { name: 'Offset Printing Machine', icon: '🖨️' }
             ].map((equipment, idx) => (
-              <Card key={idx} className="border-accent/30 bg-card hover:shadow-lg transition">
+              <Card key={idx} className="border-accent/30 bg-white hover:shadow-lg transition">
                 <CardContent className="p-6 text-center">
                   <div className="text-4xl mb-3">{equipment.icon}</div>
                   <p className="font-semibold text-primary text-sm">{equipment.name}</p>
@@ -331,7 +330,7 @@ export default function Home() {
       </section>
 
       {/* Quality Assurance Section */}
-      <section className="py-16 md:py-24 bg-card">
+      <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Quality Assurance</h2>
@@ -389,7 +388,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section id="why-us" className="py-16 md:py-24 bg-background/50">
+      <section id="why-us" className="py-16 md:py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Why Choose Shikha Laminator?</h2>
@@ -481,7 +480,7 @@ export default function Home() {
             </div>
 
             {/* Contact Form */}
-            <div className="bg-card rounded-lg p-6 md:p-8 shadow-lg" data-aos="fade-left">
+            <div className="bg-white rounded-lg p-6 md:p-8 shadow-lg" data-aos="fade-left">
               <form onSubmit={handleFormSubmit} className="space-y-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
