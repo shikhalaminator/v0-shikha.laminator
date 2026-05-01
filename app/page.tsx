@@ -116,29 +116,29 @@ export default function Home() {
             </div>
             <div className="hidden md:grid grid-cols-2 gap-4">
               <Image
-                src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=300&h=300&fit=crop&q=80"
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=300&fit=crop&q=90"
                 alt="Carton Box Manufacturing"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=300&h=300&fit=crop&q=80"
-                alt="Corrugated Cardboard Production"
+                src="https://images.unsplash.com/photo-1574482620811-1aa16ffe3c82?w=300&h=300&fit=crop&q=90"
+                alt="Industrial Carton Production"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=300&h=300&fit=crop&q=80"
-                alt="Workers Manufacturing Boxes"
+                src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=300&h=300&fit=crop&q=90"
+                alt="Workers in Manufacturing Plant"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=300&h=300&fit=crop&q=80"
-                alt="Carton Box Assembly"
+                src="https://images.unsplash.com/photo-1565794566912-5f6aa58de4c1?w=300&h=300&fit=crop&q=90"
+                alt="Quality Carton Boxes"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
@@ -265,7 +265,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section id="whyus" className="py-16 md:py-24 bg-white">
+      <section id="why-us" className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Why Choose Shikha Laminator?</h2>
