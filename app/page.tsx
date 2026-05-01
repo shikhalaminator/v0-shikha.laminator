@@ -32,12 +32,9 @@ export default function Home() {
       <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center gap-2">
-              <Image src="/shikha-logo.png" alt="Shikha Laminator" width={40} height={40} className="object-contain" />
-              <div className="flex flex-col">
-                <span className="font-bold text-lg text-primary">Shikha</span>
-                <span className="text-xs text-muted-foreground">Laminator</span>
-              </div>
+            <div className="flex items-center gap-3">
+              <Image src="/shikha-logo.png" alt="Shikha Laminator" width={45} height={45} className="object-contain" />
+              <span className="font-bold text-2xl text-primary">Shikha Laminator</span>
             </div>
 
             {/* Desktop Navigation */}
@@ -97,7 +94,7 @@ export default function Home() {
                   Packaging that <span className="text-accent">Performs</span>
                 </h1>
                 <p className="text-lg text-foreground/80">
-                  15 years of excellence in carton manufacturing. Premium quality solutions for businesses across Kanpur, Unnao, and Lucknow.
+                  15 years of excellence in carton manufacturing. Premium quality solutions for businesses across India.
                 </p>
               </div>
               <p className="text-base text-foreground/70">
@@ -117,13 +114,34 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="hidden md:flex justify-center">
+            <div className="hidden md:grid grid-cols-2 gap-4">
               <Image
-                src="/shikha-logo.png"
-                alt="Shikha Laminator - Premium Cartons"
+                src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=300&h=300&fit=crop"
+                alt="Carton Manufacturing"
                 width={300}
                 height={300}
-                className="object-contain drop-shadow-xl"
+                className="object-cover rounded-lg shadow-lg"
+              />
+              <Image
+                src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=300&h=300&fit=crop"
+                alt="Corrugated Boxes"
+                width={300}
+                height={300}
+                className="object-cover rounded-lg shadow-lg"
+              />
+              <Image
+                src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=300&h=300&fit=crop"
+                alt="Packaging Solutions"
+                width={300}
+                height={300}
+                className="object-cover rounded-lg shadow-lg"
+              />
+              <Image
+                src="https://images.unsplash.com/photo-1631092915957-50a94d11b547?w=300&h=300&fit=crop"
+                alt="Quality Cartons"
+                width={300}
+                height={300}
+                className="object-cover rounded-lg shadow-lg"
               />
             </div>
           </div>
@@ -141,13 +159,13 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-4 text-foreground/80">
               <p className="text-lg leading-relaxed">
-                <span className="font-semibold text-primary">Shikha Laminator</span> was established in 2010 by <span className="font-semibold">Mr. Amit Kumar Srivastava</span>, with a vision to deliver premium carton packaging solutions that empower businesses.
+                <span className="font-semibold text-primary">Shikha Laminator</span> was founded in 2010 with a simple but powerful mission: to provide packaging solutions that empower businesses to grow without worrying about their packaging needs. What started as a vision has become a reality, earning the trust of hundreds of companies.
               </p>
               <p className="text-lg leading-relaxed">
-                Over the past 15 years, we've grown to become a trusted packaging partner for numerous companies across Kanpur, Unnao, and Lucknow. Our commitment to quality and innovation has helped businesses overcome their packaging challenges.
+                We believe that great packaging is more than just a box—it&apos;s a reflection of your brand&apos;s commitment to quality. Every product we create, from custom carton boxes to corrugated solutions, is designed to protect your products and represent your business with excellence.
               </p>
               <p className="text-lg leading-relaxed">
-                Today, under the dynamic leadership of <span className="font-semibold">Aabhash Srivastava</span>, our management graduate and Business Development Manager, we&apos;re expanding our digital presence and bringing premium packaging solutions to even more businesses.
+                Under the leadership of <span className="font-semibold">Aabhash Srivastava</span>, our Business Development Manager, we&apos;re taking bold steps to expand our reach and bring our packaging expertise to businesses nationwide. We're not just growing our business—we're growing with our customers.
               </p>
             </div>
 
@@ -168,10 +186,10 @@ export default function Home() {
                 <CardContent className="p-6">
                   <div className="flex gap-3 items-start">
                     <CheckCircle2 className="text-accent mt-1 flex-shrink-0" size={24} />
-                    <div>
-                      <h3 className="font-semibold text-primary mb-1">Premium Quality</h3>
-                      <p className="text-sm text-foreground/80">We don&apos;t compromise on quality—every product is tested</p>
-                    </div>
+                  <div>
+                    <h3 className="font-semibold text-primary mb-1">Dedicated Support</h3>
+                    <p className="text-sm text-foreground/80">We're always available to address your needs and provide personalized solutions for your business.</p>
+                  </div>
                   </div>
                 </CardContent>
               </Card>
@@ -181,8 +199,8 @@ export default function Home() {
                   <div className="flex gap-3 items-start">
                     <MapPin className="text-accent mt-1 flex-shrink-0" size={24} />
                     <div>
-                      <h3 className="font-semibold text-primary mb-1">Local & Reliable</h3>
-                      <p className="text-sm text-foreground/80">Serving Kanpur, Unnao, and Lucknow with dedication</p>
+                      <h3 className="font-semibold text-primary mb-1">Pan-India Reach</h3>
+                      <p className="text-sm text-foreground/80">Expanding across India with reliable delivery and support</p>
                     </div>
                   </div>
                 </CardContent>
@@ -331,7 +349,7 @@ export default function Home() {
                   <MapPin className="flex-shrink-0" size={24} />
                   <div>
                     <h3 className="font-semibold mb-1">Location</h3>
-                    <p className="text-primary-foreground/90">Kanpur, Unnao, Lucknow</p>
+                    <p className="text-primary-foreground/90">Kanpur, India</p>
                   </div>
                 </div>
               </div>
