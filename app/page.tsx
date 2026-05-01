@@ -34,7 +34,10 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-3">
               <Image src="/shikha-logo.png" alt="Shikha Laminator" width={45} height={45} className="object-contain" />
-              <span className="text-2xl text-primary tracking-tight font-light" style={{fontFamily: "'Poppins', sans-serif", letterSpacing: '-0.5px'}}>SHIKHA</span>
+              <div className="flex flex-col gap-0">
+                <span className="text-2xl text-primary tracking-tight font-light" style={{fontFamily: "'Poppins', sans-serif", letterSpacing: '-0.5px'}}>SHIKHA</span>
+                <span className="text-xs text-primary/70 font-light" style={{fontFamily: "'Poppins', sans-serif"}}>LAMINATOR</span>
+              </div>
             </div>
 
             {/* Desktop Navigation */}
@@ -94,7 +97,7 @@ export default function Home() {
                   Packaging that <span className="text-accent">Performs</span>
                 </h1>
                 <p className="text-lg text-foreground/80">
-                  15 years of excellence in carton manufacturing. Premium quality solutions for businesses across India.
+                  Solutions for businesses across regions
                 </p>
               </div>
               <p className="text-base text-foreground/70">
@@ -284,7 +287,7 @@ export default function Home() {
               },
               {
                 title: 'Competitive Pricing',
-                description: 'Premium quality doesn&apos;t mean premium prices. We offer the best value for your packaging investment.'
+                description: 'We provide premium quality packaging at competitive prices, ensuring excellent value for your investment.'
               },
               {
                 title: 'Fast Turnaround',
@@ -333,7 +336,7 @@ export default function Home() {
                   <Phone className="flex-shrink-0" size={24} />
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
-                    <p className="text-primary-foreground/90">+91 XXXXXXXXXX</p>
+                    <p className="text-primary-foreground/90">9140223212, 8005200106</p>
                   </div>
                 </div>
 
@@ -341,7 +344,8 @@ export default function Home() {
                   <Mail className="flex-shrink-0" size={24} />
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-primary-foreground/90">info@shikhalaminator.com</p>
+                    <p className="text-primary-foreground/90">shikhalaminator@gmail.com</p>
+                    <p className="text-primary-foreground/90">shikhalaminator.business@gmail.com</p>
                   </div>
                 </div>
 
@@ -349,7 +353,7 @@ export default function Home() {
                   <MapPin className="flex-shrink-0" size={24} />
                   <div>
                     <h3 className="font-semibold mb-1">Location</h3>
-                    <p className="text-primary-foreground/90">Kanpur, India</p>
+                    <p className="text-primary-foreground/90">Kanpur, Uttar Pradesh, India</p>
                   </div>
                 </div>
               </div>
