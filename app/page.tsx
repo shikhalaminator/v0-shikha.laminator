@@ -88,7 +88,7 @@ export default function Home() {
       <section id="home" className="bg-gradient-to-b from-slate-50 to-white py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="space-y-6">
+            <div className="space-y-6" data-aos="fade-up">
               <div className="space-y-3">
                 <h1 className="text-4xl md:text-5xl font-bold text-primary leading-tight">
                   Packaging that <span className="text-accent">Performs</span>
@@ -114,7 +114,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-            <div className="hidden md:grid grid-cols-2 gap-4">
+            <div className="hidden md:grid grid-cols-2 gap-4" data-aos="fade-left" data-aos-delay="200">
               <Image
                 src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=300&fit=crop&q=90"
                 alt="Carton Box Manufacturing"
@@ -151,13 +151,13 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Story</h2>
             <div className="w-16 h-1 bg-accent mx-auto"></div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="space-y-4 text-foreground/80">
+            <div className="space-y-4 text-foreground/80" data-aos="fade-right">
               <p className="text-lg leading-relaxed">
                 <span className="font-semibold text-primary">Shikha Laminator</span> was established in 2010 by <span className="font-semibold">Mr. Amit Kumar Srivastava</span> with a clear vision to address the packaging challenges faced by businesses. We specialize in manufacturing high-quality laminated cartons designed to meet diverse packaging needs across industries.
               </p>
@@ -169,7 +169,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="space-y-4">
+            <div className="space-y-4" data-aos="fade-left">
               <Card className="bg-primary/5 border-accent">
                 <CardContent className="p-6">
                   <div className="flex gap-3 items-start">
@@ -213,13 +213,13 @@ export default function Home() {
       {/* Industries We Serve Section */}
       <section className="py-16 md:py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Industries We Serve</h2>
             <div className="w-16 h-1 bg-accent mx-auto mb-4"></div>
             <p className="text-lg text-foreground/80">Trusted by diverse sectors for their packaging needs</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6" data-aos="fade-up" data-aos-delay="100">
             {[
               'Garment Division',
               'Footwear Industry',
@@ -243,13 +243,13 @@ export default function Home() {
       {/* Products Section */}
       <section id="products" className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Products & Services</h2>
             <div className="w-16 h-1 bg-accent mx-auto mb-4"></div>
             <p className="text-lg text-foreground/80">Complete packaging solutions for every business need</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6" data-aos="fade-up" data-aos-delay="100">
             {[
               {
                 title: 'Carton Boxes',
@@ -297,13 +297,13 @@ export default function Home() {
       {/* Our Infrastructure Section */}
       <section className="py-16 md:py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Infrastructure & Capabilities</h2>
             <div className="w-16 h-1 bg-accent mx-auto mb-4"></div>
             <p className="text-lg text-foreground/80">State-of-the-art machinery for premium packaging solutions</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6" data-aos="fade-up" data-aos-delay="100">
             {[
               { name: 'Corrugation Machine', icon: '⚙️' },
               { name: 'Rotary & Slotter Machine', icon: '🔄' },
@@ -325,13 +325,13 @@ export default function Home() {
       {/* Quality Assurance Section */}
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Quality Assurance</h2>
             <div className="w-16 h-1 bg-accent mx-auto mb-4"></div>
             <p className="text-lg text-foreground/80">Rigorous testing ensures every carton meets our premium standards</p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-2 gap-6" data-aos="fade-up" data-aos-delay="100">
             {[
               {
                 title: 'Bursting Factor Test',
@@ -372,7 +372,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="mt-8 p-6 bg-accent/10 rounded-lg border border-accent">
+          <div className="mt-8 p-6 bg-accent/10 rounded-lg border border-accent" data-aos="zoom-in" data-aos-delay="200">
             <p className="text-center text-foreground/80 font-medium">
               <span className="text-accent">Advanced Technology:</span> Our temperature-controlled corrugation machines maintain precise temperature settings for consistent, high-quality output.
             </p>
@@ -383,12 +383,12 @@ export default function Home() {
       {/* Why Choose Us Section */}
       <section id="why-us" className="py-16 md:py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Why Choose Shikha Laminator?</h2>
             <div className="w-16 h-1 bg-accent mx-auto"></div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8" data-aos="fade-up" data-aos-delay="100">
             {[
               {
                 title: 'Expert Team',
@@ -436,7 +436,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Info */}
-            <div className="space-y-8">
+            <div className="space-y-8" data-aos="fade-right">
               <div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-2">Get Your Quote Today</h2>
                 <p className="text-primary-foreground/90">
@@ -473,7 +473,7 @@ export default function Home() {
             </div>
 
             {/* Contact Form */}
-            <div className="bg-white rounded-lg p-6 md:p-8 shadow-lg">
+            <div className="bg-white rounded-lg p-6 md:p-8 shadow-lg" data-aos="fade-left">
               <form onSubmit={handleFormSubmit} className="space-y-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Geist, Geist_Mono, Poppins } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { AOSInit } from '@/components/aos-init'
 import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });
@@ -36,8 +37,9 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="bg-background">
       <body className="font-sans antialiased">
+        <AOSInit />
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
