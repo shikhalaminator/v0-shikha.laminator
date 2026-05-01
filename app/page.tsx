@@ -34,7 +34,7 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-3">
               <Image src="/shikha-logo.png" alt="Shikha Laminator" width={45} height={45} className="object-contain" />
-              <span className="font-bold text-2xl text-primary">Shikha Laminator</span>
+              <span className="text-2xl text-primary tracking-tight font-light" style={{fontFamily: "'Poppins', sans-serif", letterSpacing: '-0.5px'}}>SHIKHA</span>
             </div>
 
             {/* Desktop Navigation */}
@@ -159,13 +159,13 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-4 text-foreground/80">
               <p className="text-lg leading-relaxed">
-                <span className="font-semibold text-primary">Shikha Laminator</span> was founded in 2010 with a simple but powerful mission: to provide packaging solutions that empower businesses to grow without worrying about their packaging needs. What started as a vision has become a reality, earning the trust of hundreds of companies.
+                <span className="font-semibold text-primary">Shikha Laminator</span> was founded in 2010 with a simple but powerful mission: to provide packaging solutions that empower businesses to grow without worrying about their packaging needs. What started as a vision has become a reality, earning the trust of many companies across the region.
               </p>
               <p className="text-lg leading-relaxed">
                 We believe that great packaging is more than just a box—it&apos;s a reflection of your brand&apos;s commitment to quality. Every product we create, from custom carton boxes to corrugated solutions, is designed to protect your products and represent your business with excellence.
               </p>
               <p className="text-lg leading-relaxed">
-                Under the leadership of <span className="font-semibold">Aabhash Srivastava</span>, our Business Development Manager, we&apos;re taking bold steps to expand our reach and bring our packaging expertise to businesses nationwide. We're not just growing our business—we're growing with our customers.
+                Under the leadership of <span className="font-semibold">Aabhash Srivastava</span>, our Business Development Manager, we&apos;re taking bold steps to strengthen our presence and bring our packaging expertise to more businesses in Kanpur, Unnao, Lucknow, and surrounding areas. We're not just growing our business—we're growing with our customers.
               </p>
             </div>
 
@@ -176,7 +176,7 @@ export default function Home() {
                     <Factory className="text-accent mt-1 flex-shrink-0" size={24} />
                     <div>
                       <h3 className="font-semibold text-primary mb-1">15 Years Strong</h3>
-                      <p className="text-sm text-foreground/80">Established in 2010, trusted by hundreds of businesses</p>
+                      <p className="text-sm text-foreground/80">Established in 2010, trusted by many businesses</p>
                     </div>
                   </div>
                 </CardContent>
@@ -199,8 +199,8 @@ export default function Home() {
                   <div className="flex gap-3 items-start">
                     <MapPin className="text-accent mt-1 flex-shrink-0" size={24} />
                     <div>
-                      <h3 className="font-semibold text-primary mb-1">Pan-India Reach</h3>
-                      <p className="text-sm text-foreground/80">Expanding across India with reliable delivery and support</p>
+                      <h3 className="font-semibold text-primary mb-1">Regional Excellence</h3>
+                      <p className="text-sm text-foreground/80">Focused on Kanpur, Unnao, Lucknow and surrounding areas with reliable support</p>
                     </div>
                   </div>
                 </CardContent>
