@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
+      <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-3">
@@ -157,7 +157,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-16 md:py-24 bg-white">
+      <section id="about" className="py-16 md:py-24 bg-white text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Story</h2>
@@ -219,7 +219,7 @@ export default function Home() {
       </section>
 
       {/* Industries We Serve Section */}
-      <section className="py-16 md:py-24 bg-slate-50">
+      <section className="py-16 md:py-24 bg-slate-50 text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Industries We Serve</h2>
@@ -249,7 +249,7 @@ export default function Home() {
       </section>
 
       {/* Products Section */}
-      <section id="products" className="py-16 md:py-24 bg-white">
+      <section id="products" className="py-16 md:py-24 bg-white text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Products & Services</h2>
@@ -302,7 +302,7 @@ export default function Home() {
       </section>
 
       {/* Our Infrastructure Section */}
-      <section className="py-16 md:py-24 bg-slate-50">
+      <section className="py-16 md:py-24 bg-slate-50 text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Infrastructure & Capabilities</h2>
@@ -330,7 +330,7 @@ export default function Home() {
       </section>
 
       {/* Quality Assurance Section */}
-      <section className="py-16 md:py-24 bg-white">
+      <section className="py-16 md:py-24 bg-white text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Our Quality Assurance</h2>
@@ -388,7 +388,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section id="why-us" className="py-16 md:py-24 bg-slate-50">
+      <section id="why-us" className="py-16 md:py-24 bg-slate-50 text-foreground">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">Why Choose Shikha Laminator?</h2>
