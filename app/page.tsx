@@ -24,7 +24,13 @@ export default function Home() {
     setTimeout(() => setIsFormSubmitted(false), 3000)
   }
 
-  const navLinks = ['Home', 'About', 'Products', 'Why Us', 'Contact']
+  const navLinks = [
+    { label: 'Home', href: '#home' },
+    { label: 'About', href: '#about' },
+    { label: 'Products', href: '#products' },
+    { label: 'Why Us', href: '#why-us' },
+    { label: 'Contact', href: '#contact' }
+  ]
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -32,16 +38,18 @@ export default function Home() {
       <header className="sticky top-0 z-50 bg-white border-b border-border shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3">
+            <a href="#home" className="flex items-center gap-3 hover:opacity-80 transition">
               <Image src="/shikha-logo.png" alt="Shikha Laminator" width={60} height={60} className="object-contain" />
               <span className="text-2xl text-primary tracking-normal font-bold">SHIKHA LAMINATOR</span>
-            </div>
+            </a>
+          </div>
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex gap-8">
               {navLinks.map(link => (
-                <a key={link} href={`#${link.toLowerCase()}`} className="text-sm font-medium hover:text-primary transition">
-                  {link}
+                <a key={link.label} href={link.href} className="text-sm font-medium hover:text-primary transition">
+                  {link.label}
                 </a>
               ))}
             </nav>
@@ -68,12 +76,12 @@ export default function Home() {
             <nav className="md:hidden pb-4 space-y-3">
               {navLinks.map(link => (
                 <a
-                  key={link}
-                  href={`#${link.toLowerCase()}`}
+                  key={link.label}
+                  href={link.href}
                   className="block text-sm font-medium hover:text-primary transition"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  {link}
+                  {link.label}
                 </a>
               ))}
               <a href="#contact" onClick={() => setIsMenuOpen(false)}>
