@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
-import { Menu, X, ChevronRight, Phone, Mail, MapPin, CheckCircle2, Factory, Zap, Shield } from 'lucide-react'
+import { Menu, X, ChevronRight, Phone, Mail, MapPin, CheckCircle2, Factory, Zap, Shield, Linkedin } from 'lucide-react'
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -606,8 +606,26 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="border-t border-primary-foreground/20 pt-8 text-center text-sm text-primary-foreground/80">
-            <p>&copy; 2024 Shikha Laminator. All rights reserved. | Packaging that Performs</p>
+          <div className="border-t border-primary-foreground/20 pt-8">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+              <div className="text-sm text-primary-foreground/80">
+                <p>&copy; 2024 Shikha Laminator. All rights reserved. | Packaging that Performs</p>
+              </div>
+              
+              {/* Social Media Links */}
+              <div className="flex items-center gap-4">
+                <span className="text-sm text-primary-foreground/80 font-medium">Follow us:</span>
+                <a 
+                  href="http://linkedin.com/company/shikha-laminator/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 bg-primary-foreground/10 hover:bg-primary-foreground/20 px-4 py-2 rounded-lg transition duration-300 group"
+                >
+                  <Linkedin size={20} className="group-hover:text-accent transition" />
+                  <span className="text-sm font-medium group-hover:text-accent transition">Shikha Laminator</span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </footer>
