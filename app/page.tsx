@@ -316,7 +316,7 @@ export default function Home() {
               { name: 'Corrugation Machine', icon: '⚙️' },
               { name: 'Rotary & Slotter Machine', icon: '🔄' },
               { name: 'Die Cutting Machine', icon: '✂️' },
-              { name: 'Stitching Machine', icon: '���' },
+              { name: 'Stitching Machine', icon: '����' },
               { name: 'Offset Printing Machine', icon: '🖨️' }
             ].map((equipment, idx) => (
               <Card key={idx} className="border-accent/30 bg-white hover:shadow-lg transition">
@@ -569,10 +569,10 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <h4 className="font-bold mb-4 flex items-center gap-2">
-                <Image src="/shikha-logo.png" alt="Shikha Laminator" width={24} height={24} className="filter brightness-0 invert" />
+                <Image src="/shikha-logo.png" alt="Shikha Laminator" width={40} height={40} className="filter brightness-0 invert" />
                 Shikha Laminator
               </h4>
-              <p className="text-sm text-primary-foreground/80">
+              <p className="text-sm text-accent font-medium">
                 Premium carton packaging solutions since 2010.
               </p>
             </div>
