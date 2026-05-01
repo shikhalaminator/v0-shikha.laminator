@@ -124,29 +124,29 @@ export default function Home() {
             </div>
             <div className="hidden md:grid grid-cols-2 gap-4" data-aos="fade-left" data-aos-delay="200">
               <Image
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=300&h=300&fit=crop&q=90"
+                src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=400&h=400&fit=crop&q=95"
                 alt="Carton Box Manufacturing"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1574482620811-1aa16ffe3c82?w=300&h=300&fit=crop&q=90"
-                alt="Industrial Carton Production"
+                src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=400&fit=crop&q=95"
+                alt="Corrugated Cardboard Boxes"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=300&h=300&fit=crop&q=90"
-                alt="Workers in Manufacturing Plant"
+                src="https://images.unsplash.com/photo-1594787318286-3d835c1cab83?w=400&h=400&fit=crop&q=95"
+                alt="Professional Box Packaging"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
               />
               <Image
-                src="https://images.unsplash.com/photo-1565794566912-5f6aa58de4c1?w=300&h=300&fit=crop&q=90"
-                alt="Quality Carton Boxes"
+                src="https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=400&h=400&fit=crop&q=95"
+                alt="Quality Carton Production"
                 width={300}
                 height={300}
                 className="object-cover rounded-lg shadow-lg"
