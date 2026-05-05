@@ -280,11 +280,6 @@ export default function Home() {
                 icon: '📫'
               },
               {
-                title: 'Paper Bags',
-                description: 'Eco-friendly and durable paper bags for retail, food, and commercial applications.',
-                icon: '🛍️'
-              },
-              {
                 title: 'Custom Solutions',
                 description: 'Specialized packaging for unique requirements—let us help you find your perfect solution.',
                 icon: '🎯'
@@ -316,7 +311,6 @@ export default function Home() {
               { name: 'Rotary & Slotter Machine', icon: '🔄' },
               { name: 'Die Cutting Machine', icon: '✂️' },
               { name: 'Stitching Machine', icon: '🧵' },
-              { name: 'Offset Printing Machine', icon: '🖨️' }
             ].map((equipment, idx) => (
               <Card key={idx} className="border-accent/30 bg-white hover:shadow-lg transition">
                 <CardContent className="p-6 text-center">
